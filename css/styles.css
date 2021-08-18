@@ -1,0 +1,81 @@
+body {
+	background-color: #333333;
+	margin: 0;
+	color: honeydew;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+label {
+	font-weight: bold;
+}
+
+.container {
+	background-color: slateblue;
+	padding: 3rem;
+	border-radius: 1rem;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+
+.title {
+margin: 1rem;
+padding: 1rem;
+text-align: center;
+}
+
+.settings {
+	display: grid;
+	grid-template-columns: auto auto;
+	row-gap: 1rem;
+	column-gap: 3rem;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.result-container {
+	background-color: white;
+	color: black;
+	padding: 1rem;
+	border: 2px solid black;
+	border-radius: 1rem;
+	height: 1rem;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.length-input {
+	width: 3rem;
+}
+
+.btn {
+	grid-column: span 2;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: .5rem 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 1rem;
+}
+
+.btn:hover {
+	background-color: #FFFFFF33;
+}
+
+#result {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 1rem;
+}
