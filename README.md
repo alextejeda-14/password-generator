@@ -1,6 +1,6 @@
 # Password Generator
 ---
-This project was my first one using github. The purpose of this small project was to get familiar with github as well as brush up on some technical skills using HTML, JS, and CSS. 
+This project was my first one using github. The purpose of this small project was to get familiar with github as well as brush up on some technical skills using the technology stack of HTML (Hypertext Markup Language), JS (JavaScript), and CSS (Cascading Style Sheets).
 
 # Contents
 | Filename | Description |
@@ -11,6 +11,6 @@ This project was my first one using github. The purpose of this small project wa
 
 # How to get this repository set up on your machine
 
-Since this repo is pure HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JS (JavaScript), all you need to do to get this repository set up on your machine is clone the repo and drag and drop the index.html file into your browser.
+Since this repo is pure HTML (Hypertext Markup Language), JS (JavaScript), and CSS (Cascading Style Sheets), all you need to do to get this repository set up on your machine is clone the repo and drag and drop the index.html file into your browser.
 
 > NOTE: Despite the fact that there aren't any major dependencies that you must install, an internet connection is required to access some remote dependencies like jquery and more.
