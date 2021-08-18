@@ -1,3 +1,10 @@
+<!--
+
+
+CREATED BY ALEXANDER TEJEDA
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,42 +12,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
+    <!-- Wrapper container -->
     <div class="container">
-        <h1>Password Generator</h1>
+
+        <!-- Title W/ Result container that will house the generated password -->
+        <h1 class="title">Password Generator</h1>
         <div class="result-container">
             <span id="result"></span>
         </div>
+
+        <!-- Div that will hold "settings" that will generate the criteria for the users password -->
         <div class="settings">
-            <div class="setting">
-                <label>Password Length</label>
-                <input type="number" id="length" min="8" max="20" value="8">
-            </div>
-            <div class="setting">
-                <label>Include uppercase letters</label>
-                <input type="checkbox" id="uppercase" checked>
-            </div>
-            <div class="setting">
-                <label>Include lowercase letters</label>
-                <input type="checkbox" id="lowercase" checked>
-            </div>
-            <div class="setting">
-                <label>Include numbers</label>
-                <input type="checkbox" id="numbers" checked>
-            </div>
-            <div class="setting">
-                <label>Include symbols</label>
-                <input type="checkbox" id="symbols" checked>
-            </div>
+
+            <!-- Holds the desired password length, password length must be from 8 - 20 -->
+            <label>Password Length</label>
+            <input class="length-input" type="number" id="length" min="8" max="20" value="8">
+
+            <!-- Will hold whether or not the user wants uppercase letters in their password -->
+            <label>Include uppercase</label>
+            <input type="checkbox" id="uppercase" checked>
+
+            <!-- Will hold whether or not the user wants numbers in their password -->
+            <label>Include numbers</label>
+            <input type="checkbox" id="numbers" checked>
+
+            <!-- Will hold whether or not the user wants symbols in their password -->
+            <label>Include symbols</label>
+            <input type="checkbox" id="symbols" checked>
+
+            <!-- Button to generate the password -->
+            <button class="btn" id="generate">Generate Password</button>
         </div>
-        <button class="btn btn-large" id="generate">
-            Generate Password
-        </button>
     </div>
 
     <!-- JAVASCRIPT & JQUERY LINKED -->
